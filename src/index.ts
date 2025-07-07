@@ -1,5 +1,5 @@
-import { BinaryExpression, BinaryOperator } from "./types";
-import { getRandomInteger } from "./utils";
+import { BinaryExpression, BinaryOperator } from "./types.js";
+import { getRandomInteger } from "./utils.js";
 
 const binaryOperators: BinaryOperator[] = ["+", "-"];
 
