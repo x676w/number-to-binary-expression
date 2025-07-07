@@ -1,0 +1,25 @@
+{
+  "name": "numeric-to-binary-expression",
+  "version": "1.0.0",
+  "description": "converts numbers to binary expressions",
+  "keywords": [
+    "converter",
+    "numeric-to-binary-expressions"
+  ],
+  "license": "MIT",
+  "author": "x676w",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.0.10",
+    "jest": "^30.0.4",
+    "ts-jest": "^29.4.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}
